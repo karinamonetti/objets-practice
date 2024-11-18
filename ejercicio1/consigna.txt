@@ -1,0 +1,16 @@
+Ejercicio 1: Sistema de Gestión de Empleados
+Crea una jerarquía de clases para un sistema de gestión de empleados atendiendo a lo siguiente:
+
+- Crea una clase base llamada Empleado con las propiedades nombre, edad y salario. ✅
+
+- Añade un método estático llamado calcularSalarioPromedio que reciba un número indeterminado de objetos Empleado y devuelva el salario promedio de los empleados. ✅
+
+- Crea una clase Gerente que herede de Empleado, y añade la propiedad adicional departamento.✅
+
+- Crea un archivo app.js en el que importes los dos JSs de las dos clases. ✅
+
+- Crea en este app.js un array con 4 empleados y otro con 2 gerentes. ✅
+
+- Combina ambos mediante el operador spread. ✅
+
+- Llama al método estático para mostrar en un alert el salario promedio. ✅
