@@ -1,0 +1,24 @@
+Crea un sistema de gestión de libros de una librería utilizando clases y arrays.
+
+- Crea una clase base llamada Libro con las propiedades titulo, autor, añoPublicacion y precio. ✅
+
+- Añade un método estático calcularTotalPrecio que reciba un número indeterminado de objetos Libro y devuelva el precio total de todos los libros. ✅
+
+- Crea una clase Ebook que herede de Libro y añada la propiedad adicional formato (por ejemplo, "PDF", "EPUB"). ✅
+
+- Crea otra clase llamada Autor que tenga como propiedades el nombre, el apellido, el año de nacimiento y un array con todas su obras, que inicialmente se encontrará vacío. ✅
+
+Crea en Autor un método que recibiendo un array con libros compruebe que no los tiene entre sus libros y en tal caso los añada. ✅
+
+- Crea en Libro otro método estático devuelveLibrosAutor que reciba un número indeterminado de libros y un autor y devuelva un array con los libros escritos por un autor específico ordenados por fecha de publicación. ✅
+
+Crea un archivo app.js en el que importes los JSs necesarios de las clases. ✅
+
+Crea un autor y un array con 5 libros y 5 ebooks. ✅ 
+
+
+Llama a la función de añadir libros en Autor que reciba como parámetro lo retornado por el método estático devuelveLibrosAutor, al que le pasaremos los libros del array y el autor. ✅
+
+Muestra por consola el autor. ✅
+
+Llama a la función  calcularTotalPrecio pasandole los libros del array creado en el punto 8 y muestra su resultado en un alert. ✅
